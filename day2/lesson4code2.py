@@ -31,4 +31,7 @@ for i, j in enumerate(a):
     print(i,j)
 
 for i in range(len(fruit)):
+    print(i,fruit[i])
+
+for i in range(len(fruit)-1):
     print(fruit[i],fruit[i+1])
